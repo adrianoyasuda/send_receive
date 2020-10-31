@@ -26,11 +26,15 @@
             app:layout_constraintBottom_toBottomOf="@+id/img_default"
             app:layout_constraintTop_toTopOf="@+id/img_default" app:layout_constraintVertical_bias="1.0"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginRight="8dp"/>
+
     <ImageView
-            android:layout_width="45dp"
-            android:layout_height="43dp" app:srcCompat="@drawable/img_preview"
             android:id="@+id/img_default"
+            android:layout_width="45dp"
+            android:layout_height="43dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            app:layout_constraintBottom_toBottomOf="@+id/txf_texto"
             app:layout_constraintEnd_toStartOf="@+id/img_enviar"
-            app:layout_constraintBottom_toBottomOf="@+id/txf_texto"/>
+            app:srcCompat="@drawable/img_preview" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
