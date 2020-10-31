@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Получатель</string>
+    <string name="todo">TODO</string>
+    <string name="aguardando_aplica_o_1_enviar_texto_ou_imagem">Ожидание отправки текста или изображения приложением 1</string>
+    <string name="receptor_de_texto_e_imagens">Приемник текста и изображений</string>
+</resources>

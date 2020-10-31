@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Receiver "</string>
+    <string name="receptor_de_texto_e_imagens">Text and Image Receiver</string>
+    <string name="aguardando_aplica_o_1_enviar_texto_ou_imagem">Waiting for Application 1 to send Text or Image</string>
+    <string name="todo">TODO</string>
+</resources>

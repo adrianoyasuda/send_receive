@@ -10,12 +10,14 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+
     @SuppressLint("WrongConstant")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
         if(Intent.ACTION_SEND == intent.action && intent.type != null){
+            @Suppress("RECEIVER_NULLABILITY_MISMATCH_BASED_ON_JAVA_ANNOTATIONS")
             if ("text/multiline" == intent.type){
                 val sharedText = intent.getStringExtra(Intent.EXTRA_TEXT)
                 if(sharedText != null)
